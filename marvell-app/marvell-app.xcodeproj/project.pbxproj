@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C287052256611B400477C23 /* SecaoPacotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C287051256611B400477C23 /* SecaoPacotesView.swift */; };
+		2C5B318F2558BE4100887535 /* marvell_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B318E2558BE4100887535 /* marvell_appApp.swift */; };
+		2C5B31912558BE4100887535 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B31902558BE4100887535 /* ContentView.swift */; };
+		2C5B31932558BE4300887535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B31922558BE4300887535 /* Assets.xcassets */; };
+		2C5B31962558BE4300887535 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B31952558BE4300887535 /* Preview Assets.xcassets */; };
+		2C5B31A12558BE4400887535 /* marvell_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B31A02558BE4400887535 /* marvell_appTests.swift */; };
+		2C5B31AC2558BE4400887535 /* marvell_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B31AB2558BE4400887535 /* marvell_appUITests.swift */; };
+		2C5B31BE2558D6ED00887535 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B31BD2558D6ED00887535 /* Dados.swift */; };
+		2C5B31C62558D71800887535 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B31C52558D71800887535 /* Viagem.swift */; };
+		2C5B31CB2558D74A00887535 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B31CA2558D74A00887535 /* viagens.json */; };
+		2C5B31DB2558DA7E00887535 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B31DA2558DA7E00887535 /* HeaderView.swift */; };
+		2C5B31E32558DBC000887535 /* CardTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B31E22558DBC000887535 /* CardTravelView.swift */; };
+		2C5B31EB2558E4E300887535 /* MapaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B31EA2558E4E300887535 /* MapaView.swift */; };
+		2C60000E256F3E6A005DF320 /* DestaquesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60000D256F3E6A005DF320 /* DestaquesView.swift */; };
+		2C600018256F425A005DF320 /* DetalhesViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C600017256F425A005DF320 /* DetalhesViagemView.swift */; };
+		2CCBB3CC255A249E00C1A4B9 /* PacotesViagemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBB3CB255A249E00C1A4B9 /* PacotesViagemView.swift */; };
+		2CCBB3D2255A2DCA00C1A4B9 /* pacotes-viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CCBB3D1255A2DCA00C1A4B9 /* pacotes-viagens.json */; };
+		2CCBB3D7255A2DD800C1A4B9 /* PacoteDeViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBB3D6255A2DD800C1A4B9 /* PacoteDeViagem.swift */; };
+		2CDF8E3C256CA0AF00AB2931 /* ListaDePacotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDF8E3B256CA0AF00AB2931 /* ListaDePacotesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C5B319D2558BE4400887535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5B31832558BE4100887535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5B318A2558BE4100887535;
+			remoteInfo = "marvell-app";
+		};
+		2C5B31A82558BE4400887535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5B31832558BE4100887535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5B318A2558BE4100887535;
+			remoteInfo = "marvell-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C287051256611B400477C23 /* SecaoPacotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecaoPacotesView.swift; sourceTree = "<group>"; };
+		2C5B318B2558BE4100887535 /* marvell-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "marvell-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5B318E2558BE4100887535 /* marvell_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvell_appApp.swift; sourceTree = "<group>"; };
+		2C5B31902558BE4100887535 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C5B31922558BE4300887535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C5B31952558BE4300887535 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C5B31972558BE4300887535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5B319C2558BE4400887535 /* marvell-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "marvell-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5B31A02558BE4400887535 /* marvell_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvell_appTests.swift; sourceTree = "<group>"; };
+		2C5B31A22558BE4400887535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5B31A72558BE4400887535 /* marvell-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "marvell-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5B31AB2558BE4400887535 /* marvell_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvell_appUITests.swift; sourceTree = "<group>"; };
+		2C5B31AD2558BE4400887535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5B31BD2558D6ED00887535 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		2C5B31C52558D71800887535 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		2C5B31CA2558D74A00887535 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
+		2C5B31DA2558DA7E00887535 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2C5B31E22558DBC000887535 /* CardTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTravelView.swift; sourceTree = "<group>"; };
+		2C5B31EA2558E4E300887535 /* MapaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaView.swift; sourceTree = "<group>"; };
+		2C60000D256F3E6A005DF320 /* DestaquesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestaquesView.swift; sourceTree = "<group>"; };
+		2C600017256F425A005DF320 /* DetalhesViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViagemView.swift; sourceTree = "<group>"; };
+		2CCBB3CB255A249E00C1A4B9 /* PacotesViagemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacotesViagemView.swift; sourceTree = "<group>"; };
+		2CCBB3D1255A2DCA00C1A4B9 /* pacotes-viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pacotes-viagens.json"; sourceTree = "<group>"; };
+		2CCBB3D6255A2DD800C1A4B9 /* PacoteDeViagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacoteDeViagem.swift; sourceTree = "<group>"; };
+		2CDF8E3B256CA0AF00AB2931 /* ListaDePacotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDePacotesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5B31882558BE4100887535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B31992558BE4400887535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B31A42558BE4400887535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5B31822558BE4100887535 = {
+			isa = PBXGroup;
+			children = (
+				2C5B318D2558BE4100887535 /* marvell-app */,
+				2C5B319F2558BE4400887535 /* marvell-appTests */,
+				2C5B31AA2558BE4400887535 /* marvell-appUITests */,
+				2C5B318C2558BE4100887535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C5B318C2558BE4100887535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B318B2558BE4100887535 /* marvell-app.app */,
+				2C5B319C2558BE4400887535 /* marvell-appTests.xctest */,
+				2C5B31A72558BE4400887535 /* marvell-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C5B318D2558BE4100887535 /* marvell-app */ = {
+			isa = PBXGroup;
+			children = (
+				2CCBB3D0255A2D9000C1A4B9 /* Mocks */,
+				2C5B31D82558DA1E00887535 /* Components */,
+				2C5B31BC2558D6D400887535 /* Models */,
+				2C5B31D92558DA3500887535 /* Views */,
+				2C5B31902558BE4100887535 /* ContentView.swift */,
+				2C5B318E2558BE4100887535 /* marvell_appApp.swift */,
+				2C5B31922558BE4300887535 /* Assets.xcassets */,
+				2C5B31972558BE4300887535 /* Info.plist */,
+				2C5B31942558BE4300887535 /* Preview Content */,
+			);
+			path = "marvell-app";
+			sourceTree = "<group>";
+		};
+		2C5B31942558BE4300887535 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B31952558BE4300887535 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C5B319F2558BE4400887535 /* marvell-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B31A02558BE4400887535 /* marvell_appTests.swift */,
+				2C5B31A22558BE4400887535 /* Info.plist */,
+			);
+			path = "marvell-appTests";
+			sourceTree = "<group>";
+		};
+		2C5B31AA2558BE4400887535 /* marvell-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B31AB2558BE4400887535 /* marvell_appUITests.swift */,
+				2C5B31AD2558BE4400887535 /* Info.plist */,
+			);
+			path = "marvell-appUITests";
+			sourceTree = "<group>";
+		};
+		2C5B31BC2558D6D400887535 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CCBB3D6255A2DD800C1A4B9 /* PacoteDeViagem.swift */,
+				2C5B31BD2558D6ED00887535 /* Dados.swift */,
+				2C5B31C52558D71800887535 /* Viagem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C5B31D82558DA1E00887535 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B31E22558DBC000887535 /* CardTravelView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2C5B31D92558DA3500887535 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C600016256F423F005DF320 /* Detalhes */,
+				2C600008256F3D33005DF320 /* Destaques */,
+				2C600009256F3DB6005DF320 /* Pacotes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C600008256F3D33005DF320 /* Destaques */ = {
+			isa = PBXGroup;
+			children = (
+				2C60000D256F3E6A005DF320 /* DestaquesView.swift */,
+				2C5B31DA2558DA7E00887535 /* HeaderView.swift */,
+				2C5B31EA2558E4E300887535 /* MapaView.swift */,
+			);
+			path = Destaques;
+			sourceTree = "<group>";
+		};
+		2C600009256F3DB6005DF320 /* Pacotes */ = {
+			isa = PBXGroup;
+			children = (
+				2CCBB3CB255A249E00C1A4B9 /* PacotesViagemView.swift */,
+				2C287051256611B400477C23 /* SecaoPacotesView.swift */,
+				2CDF8E3B256CA0AF00AB2931 /* ListaDePacotesView.swift */,
+			);
+			path = Pacotes;
+			sourceTree = "<group>";
+		};
+		2C600016256F423F005DF320 /* Detalhes */ = {
+			isa = PBXGroup;
+			children = (
+				2C600017256F425A005DF320 /* DetalhesViagemView.swift */,
+			);
+			path = Detalhes;
+			sourceTree = "<group>";
+		};
+		2CCBB3D0255A2D9000C1A4B9 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2CCBB3D1255A2DCA00C1A4B9 /* pacotes-viagens.json */,
+				2C5B31CA2558D74A00887535 /* viagens.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5B318A2558BE4100887535 /* marvell-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5B31B02558BE4400887535 /* Build configuration list for PBXNativeTarget "marvell-app" */;
+			buildPhases = (
+				2C5B31872558BE4100887535 /* Sources */,
+				2C5B31882558BE4100887535 /* Frameworks */,
+				2C5B31892558BE4100887535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "marvell-app";
+			productName = "marvell-app";
+			productReference = 2C5B318B2558BE4100887535 /* marvell-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C5B319B2558BE4400887535 /* marvell-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5B31B32558BE4400887535 /* Build configuration list for PBXNativeTarget "marvell-appTests" */;
+			buildPhases = (
+				2C5B31982558BE4400887535 /* Sources */,
+				2C5B31992558BE4400887535 /* Frameworks */,
+				2C5B319A2558BE4400887535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5B319E2558BE4400887535 /* PBXTargetDependency */,
+			);
+			name = "marvell-appTests";
+			productName = "marvell-appTests";
+			productReference = 2C5B319C2558BE4400887535 /* marvell-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C5B31A62558BE4400887535 /* marvell-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5B31B62558BE4400887535 /* Build configuration list for PBXNativeTarget "marvell-appUITests" */;
+			buildPhases = (
+				2C5B31A32558BE4400887535 /* Sources */,
+				2C5B31A42558BE4400887535 /* Frameworks */,
+				2C5B31A52558BE4400887535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5B31A92558BE4400887535 /* PBXTargetDependency */,
+			);
+			name = "marvell-appUITests";
+			productName = "marvell-appUITests";
+			productReference = 2C5B31A72558BE4400887535 /* marvell-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C5B31832558BE4100887535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2C5B318A2558BE4100887535 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					2C5B319B2558BE4400887535 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2C5B318A2558BE4100887535;
+					};
+					2C5B31A62558BE4400887535 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2C5B318A2558BE4100887535;
+					};
+				};
+			};
+			buildConfigurationList = 2C5B31862558BE4100887535 /* Build configuration list for PBXProject "marvell-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C5B31822558BE4100887535;
+			productRefGroup = 2C5B318C2558BE4100887535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5B318A2558BE4100887535 /* marvell-app */,
+				2C5B319B2558BE4400887535 /* marvell-appTests */,
+				2C5B31A62558BE4400887535 /* marvell-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5B31892558BE4100887535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B31962558BE4300887535 /* Preview Assets.xcassets in Resources */,
+				2CCBB3D2255A2DCA00C1A4B9 /* pacotes-viagens.json in Resources */,
+				2C5B31932558BE4300887535 /* Assets.xcassets in Resources */,
+				2C5B31CB2558D74A00887535 /* viagens.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B319A2558BE4400887535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B31A52558BE4400887535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5B31872558BE4100887535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C287052256611B400477C23 /* SecaoPacotesView.swift in Sources */,
+				2C5B31E32558DBC000887535 /* CardTravelView.swift in Sources */,
+				2C5B31EB2558E4E300887535 /* MapaView.swift in Sources */,
+				2C600018256F425A005DF320 /* DetalhesViagemView.swift in Sources */,
+				2C5B31DB2558DA7E00887535 /* HeaderView.swift in Sources */,
+				2C60000E256F3E6A005DF320 /* DestaquesView.swift in Sources */,
+				2C5B31C62558D71800887535 /* Viagem.swift in Sources */,
+				2C5B31912558BE4100887535 /* ContentView.swift in Sources */,
+				2CCBB3CC255A249E00C1A4B9 /* PacotesViagemView.swift in Sources */,
+				2CDF8E3C256CA0AF00AB2931 /* ListaDePacotesView.swift in Sources */,
+				2CCBB3D7255A2DD800C1A4B9 /* PacoteDeViagem.swift in Sources */,
+				2C5B31BE2558D6ED00887535 /* Dados.swift in Sources */,
+				2C5B318F2558BE4100887535 /* marvell_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B31982558BE4400887535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B31A12558BE4400887535 /* marvell_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B31A32558BE4400887535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B31AC2558BE4400887535 /* marvell_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C5B319E2558BE4400887535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5B318A2558BE4100887535 /* marvell-app */;
+			targetProxy = 2C5B319D2558BE4400887535 /* PBXContainerItemProxy */;
+		};
+		2C5B31A92558BE4400887535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5B318A2558BE4100887535 /* marvell-app */;
+			targetProxy = 2C5B31A82558BE4400887535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C5B31AE2558BE4400887535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C5B31AF2558BE4400887535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C5B31B12558BE4400887535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"marvell-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "marvell-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.marvell-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C5B31B22558BE4400887535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"marvell-app/Preview Content\"";
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "marvell-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.marvell-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C5B31B42558BE4400887535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = "marvell-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.marvell-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marvell-app.app/marvell-app";
+			};
+			name = Debug;
+		};
+		2C5B31B52558BE4400887535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = "marvell-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.marvell-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/marvell-app.app/marvell-app";
+			};
+			name = Release;
+		};
+		2C5B31B72558BE4400887535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = "marvell-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.marvell-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "marvell-app";
+			};
+			name = Debug;
+		};
+		2C5B31B82558BE4400887535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8U9MR3PTXT;
+				INFOPLIST_FILE = "marvell-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.cwi.treinamento.wschenkel.marvell-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "marvell-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5B31862558BE4100887535 /* Build configuration list for PBXProject "marvell-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5B31AE2558BE4400887535 /* Debug */,
+				2C5B31AF2558BE4400887535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5B31B02558BE4400887535 /* Build configuration list for PBXNativeTarget "marvell-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5B31B12558BE4400887535 /* Debug */,
+				2C5B31B22558BE4400887535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5B31B32558BE4400887535 /* Build configuration list for PBXNativeTarget "marvell-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5B31B42558BE4400887535 /* Debug */,
+				2C5B31B52558BE4400887535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5B31B62558BE4400887535 /* Build configuration list for PBXNativeTarget "marvell-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5B31B72558BE4400887535 /* Debug */,
+				2C5B31B82558BE4400887535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C5B31832558BE4100887535 /* Project object */;
+}
