@@ -11,6 +11,7 @@ import MapKit
 struct Viagem: Hashable, Codable, Identifiable {
     var id: Int
     var titulo: String
+    var descricao: String
     var imagem: String
     var quantidadeDeDias: String
     var valor: String

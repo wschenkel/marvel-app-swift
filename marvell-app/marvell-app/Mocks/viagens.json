@@ -2,8 +2,9 @@
     {
         "id": 1,
         "titulo": "Rio de Janeiro",
+        "descricao": "Com inúmeras praias, belíssimas montanhas e o samba e a bossa nova ao fundo, é fácil se apaixonar pelo Rio de Janeiro.",
         "imagem": "img1",
-        "quantidadeDeDias": "6 dias",
+        "quantidadeDeDias": "6",
         "valor": "1.200,00",
         "coordenada": {
             "longitude": -43.2096,
@@ -13,8 +14,9 @@
     {
         "id": 2,
         "titulo": "Ceará",
+        "descricao": "um estado do nordeste brasileiro, tem um interior montanhoso e um litoral atlântico com impressionantes falésias vermelhas.",
         "imagem": "img2",
-        "quantidadeDeDias": "6 dias",
+        "quantidadeDeDias": "6",
         "valor": "1.200,00",
         "coordenada": {
             "longitude": -38.5434,
@@ -24,8 +26,9 @@
     {
         "id": 3,
         "titulo": "Atibaia - São Paulo",
+        "descricao": "Famosa pela Festa das Flores e do Morango que acontece na primavera, Atibaia mostra que tem muito a oferecer, em especial para quem viaja com a família.",
         "imagem": "img3",
-        "quantidadeDeDias": "6 dias",
+        "quantidadeDeDias": "6",
         "valor": "1.200,00",
         "coordenada": {
             "longitude": -46.5502,
@@ -35,8 +38,9 @@
     {
         "id": 4,
         "titulo": "Paraíba",
+        "descricao": "Conhecido pela linha da costa tropical e pela arquitetura colonial portuguesa. A capital, João Pessoa, possui praias como a Manaíra e Tambaú, além de locais de mergulho repletos de corais ao largo da costa. ",
         "imagem": "img4",
-        "quantidadeDeDias": "6 dias",
+        "quantidadeDeDias": "6",
         "valor": "1.200,00",
         "coordenada": {
             "longitude": -34.861,

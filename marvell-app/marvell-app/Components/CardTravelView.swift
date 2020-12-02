@@ -13,14 +13,25 @@ struct CardTravelView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(viagem.titulo)
             Image(viagem.imagem).resizable()
-                .frame(height: 125)
+                .frame(height: 215)
+            
+            Text(viagem.titulo)
+                .padding(.bottom, 5)
+                .font(.custom("Avenir Black", size: 20))
+            
+            Text(viagem.descricao)
+                .padding(.bottom, 5)
+                .font(.custom("Avenir", size: 16))
             
             HStack {
-                Text(viagem.quantidadeDeDias)
+                Text("\(viagem.quantidadeDeDias) dia(s)")
+                    .font(.custom("Avenir", size: 20))
+                    .foregroundColor(.black)
                 Spacer()
-                Text(viagem.valor)
+                Text("R$ \(viagem.valor)")
+                    .font(.custom("Avenir", size: 20))
+                    .foregroundColor(.orange)
             }
         }
     }

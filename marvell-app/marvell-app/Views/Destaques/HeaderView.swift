@@ -13,36 +13,13 @@ struct HeaderView: View {
         GeometryReader { View in
             VStack {
                 VStack {
-                    Image("Logo")
-                    Text("Heróis na suas mãos")
+                    Image("Logo").padding(.top, 10)
+                    Text("Descubra o mundo nas suas mãos")
                         .font(.custom("Avenir", size: 20))
                         .foregroundColor(.white)
                 }
-                .frame(width: View.size.width, height: 130, alignment: .center)
+                .frame(width: View.size.width, height: 170, alignment: .center)
                 .background(Color("Red"))
-                
-//                HStack {
-//                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-//                        Text("Hoteis")
-//                            .font(.custom("Avenir Medium", size: 17))
-//                            .foregroundColor(Color.white)
-//                    }).frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
-//                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 10))
-//                    .background(Color.blue)
-//                    .offset(x: 50)
-//
-//                    Spacer()
-//
-//                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-//                        Text("Pacotes")
-//                            .font(.custom("Avenir Medium", size: 17))
-//                            .foregroundColor(Color.white)
-//                    }).frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
-//                    .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.orange, lineWidth: 10))
-//                    .background(Color.orange)
-//                    .offset(x: -50)
-//
-//                }.offset(y: -25)
             }
         }
     }

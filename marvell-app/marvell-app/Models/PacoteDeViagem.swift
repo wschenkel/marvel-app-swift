@@ -11,12 +11,13 @@ import Foundation
 struct PacoteDeViagem: Codable, Identifiable {
 
     enum CodingKeys: String, CodingKey {
-       case id, titulo, categoria, descricao, detalhes, dataValidade = "data", imagens, itensInclusos, valor
+       case id, titulo, categoria, descricao, informacoes, detalhes, dataValidade = "data", imagens, itensInclusos, valor
     }
 
     var id: Int
     var titulo: String
     var valor: String
+    var informacoes: String
     var categoria: Categoria
     var descricao: String
     var detalhes: String

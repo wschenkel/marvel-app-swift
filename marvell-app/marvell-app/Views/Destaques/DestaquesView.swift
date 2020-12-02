@@ -13,7 +13,7 @@ struct DestaquesView: View {
             GeometryReader { View in
                 VStack { // VStack pai
                     HeaderView()
-                        .frame(width: View.size.width, height: 210, alignment: .top)
+                        .frame(width: View.size.width, height: 170, alignment: .top)
 
                     List(viagens) { viagem in
                         NavigationLink(destination: MapaView(coordenada: viagem.localizacao).navigationBarTitle("Localização")) {
@@ -22,7 +22,7 @@ struct DestaquesView: View {
                     }.navigationBarTitle("")
                 }
                 
-            }.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            }.edgesIgnoringSafeArea(.top)
         }.navigationViewStyle(StackNavigationViewStyle())
     }
 }

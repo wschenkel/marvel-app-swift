@@ -3,6 +3,7 @@
         "id": 1,
         "titulo": "Machu Picchu",
         "categoria": "America do sul",
+        "informacoes": "Cidadela inca que fica no alto da Cordilheira dos Andes no Peru, acima do vale do rio Urubamba. Construída no século XV e posteriormente abandonada, ela é conhecida pelas sofisticadas muralhas de pedra contínuas, cujos imensos blocos foram unidos sem o uso de argamassa,",
         "descricao": "Pacote Lima + Cusco com Passeio à Machu Picchu",
         "detalhes": "Apartamento duplo | 05 diárias (02 diárias em Lima + 03 diárias em Cusco) | Passeios à Machu Picchu",
         "data": "01 de set - 30 de nov",
@@ -30,6 +31,7 @@
         "id": 2,
         "titulo": "Rio de Janeiro",
         "categoria": "America do sul",
+        "informacoes": "Com inúmeras praias, belíssimas montanhas e o samba e a bossa nova ao fundo, é fácil se apaixonar pelo Rio de Janeiro.",
         "descricao": "Aéreo + Hospedagem c/ Café da Manhã + Transfer",
         "detalhes": "Apartamento duplo | 02 diárias em Rio de Janeiro + 02 diárias em ilha Grande | Transfer | Catamarã",
         "data": "01 de mar - 30 de nov",
@@ -57,6 +59,7 @@
         "id": 3,
         "titulo": "Buenos Aires",
         "categoria": "America do sul",
+        "informacoes": "A capital cosmopolita da Argentina. Seu centro é a Praça de Maio, com imponentes edifícios do século 19, como a Casa Rosada, o emblemático palácio presidencial com sacadas.",
         "descricao": "Aéreo + Hospedagem c/ Café da Manhã",
         "detalhes": "Incluso passeio p/ Bariloche",
         "data": "01 de abr - 30 de dez",
@@ -84,6 +87,7 @@
         "id": 4,
         "titulo": "Lima",
         "categoria": "America do sul",
+        "informacoes": "A capital do Peru, está situada na árida costa do Pacífico do país. Apesar de ter seu centro colonial preservado, a cidade é uma metrópole movimentada e uma das maiores cidades da América do Sul. Nela, está localizada a coleção de arte pré-colombiana do Museu Larco e do Museo de la Nación, que traça a história das civilizações antigas do Peru. ",
         "descricao": "Pacote Lima + Cusco",
         "detalhes": "Apartamento duplo - Hotel + Passagem",
         "data": "01 de set - 30 de nov",
@@ -106,6 +110,7 @@
         "id": 5,
         "titulo": "Santiago",
         "categoria": "America do sul",
+        "informacoes": "A capital e maior cidade do Chile, fica em um vale circundado pelos Andes cobertos pela neve e a cadeia de montanhas chilena.",
         "descricao": "Aéreo + Hotel",
         "detalhes": "Apartamento duplo",
         "data": "01 de set - 30 de nov",
@@ -127,6 +132,7 @@
     {
         "id": 6,
         "titulo": "Lisboa",
+        "informacoes": "A capital de Portugal, situada na costa. Do imponente Castelo de São Jorge, a vista abrange as construções em tons pastel da cidade antiga, o estuário do Tejo e a Ponte 25 de Abril. Perto dali, o Museu Nacional do Azulejo exibe 5 séculos de azulejos decorativos. Nas proximidades de Lisboa, há uma sequência de praias do Atlântico, entre elas Cascais e Estoril.",
         "categoria": "Europa",
         "descricao": "Aéreo + Hotel",
         "detalhes": "Apartamento duplo",
@@ -149,6 +155,7 @@
     {
         "id": 7,
         "titulo": "Roma",
+        "informacoes": "A capital da Itália, é uma cidade cosmopolita, enorme, com quase 3.000 anos de arte, arquitetura e cultura influentes no mundo todo e à mostra. Ruínas antigas como o Fórum e o Coliseu evocam o poder do antigo Império Romano.",
         "categoria": "Europa",
         "descricao": "Aéreo + Hotel",
         "detalhes": "Apartamento duplo",
@@ -171,6 +178,7 @@
     {
         "id": 8,
         "titulo": "França",
+        "informacoes": "Na Europa Ocidental, tem cidades medievais, aldeias alpinas e praias mediterrâneas. Paris, sua capital, é famosa pelas casas de alta costura, museus de arte clássica, como o Louvre, e monumentos como a Torre Eiffel.",
         "categoria": "Europa",
         "descricao": "Aéreo + Hotel",
         "detalhes": "Pacote Paris + Passeios",
@@ -193,6 +201,7 @@
     {
         "id": 9,
         "titulo": "Amsterdam",
+        "informacoes": "A capital da Holanda, conhecida por seu patrimônio artístico, um elaborado sistema de canais e casas estreitas com telhados de duas águas, legados da era dourada do século XVII na cidade.",
         "categoria": "Europa",
         "descricao": "Aéreo + Hotel",
         "detalhes": "Apartamento duplo",
@@ -215,6 +224,7 @@
     {
         "id": 10,
         "titulo": "Londres",
+        "informacoes": "A capital da Inglaterra e do Reino Unido, é uma cidade do século 21 com uma história que remonta à era romana. Seu centro abriga as sedes imponentes do Parlamento, a famosa torre do relógio do Big Ben e a Abadia de Westminster, local de coroação dos monarcas britânicos. ",
         "categoria": "Europa",
         "descricao": "Aéreo + Hotel",
         "detalhes": "Apartamento duplo",
@@ -237,6 +247,7 @@
     {
         "id": 11,
         "titulo": "Nova York",
+        "informacoes": "A cidade compreende 5 distritos situados no encontro do rio Hudson com o Oceano Atlântico. No centro da cidade fica Manhattan, um distrito com alta densidade demográfica que está entre os principais centros comerciais, financeiros e culturais do mundo.",
         "categoria": "America do norte",
         "descricao": "Aéreo + Hotel",
         "detalhes": "Apartamento duplo",
@@ -259,6 +270,7 @@
     {
         "id": 12,
         "titulo": "Vancouver",
+        "informacoes": "Uma movimentada cidade portuária na costa oeste da Colúmbia Britânica, está entre as cidades mais densas e etnicamente diversas do Canadá. Um local muito procurado para gravações de filmes, ela é cercada por montanhas e tem um próspero cenário artístico, teatral e musical.",
         "categoria": "America do norte",
         "descricao": "Aéreo + Hotel",
         "detalhes": "Apartamento duplo",
@@ -281,6 +293,7 @@
     {
         "id": 13,
         "titulo": "Cancun",
+        "informacoes": "Uma cidade mexicana situada na Península de Iucatã, na costa do Mar do Caribe, é conhecida por suas praias, seus vários resorts e sua vida noturna. Ela é composta por duas áreas distintas: a área mais tradicional do centro da cidade, El Centro, e a Zona Hotelera, uma longa faixa à beira-mar com grandes hotéis, casas noturnas, lojas e restaurantes.",
         "categoria": "America do norte",
         "descricao": "Aéreo + Hotel 5 estrelas",
         "detalhes": "Apartamento duplo",
@@ -303,6 +316,7 @@
     {
         "id": 14,
         "titulo": "São Francisco",
+        "informacoes": "No norte da Califórnia, é uma cidade com colinas situada na ponta de uma península cercada pelo Oceano Pacífico e pela Baía de São Francisco. Ela é conhecida pela névoa que dura o ano todo, pela emblemática Ponte Golden Gate, por seus bondinhos e por suas coloridas casas vitorianas.",
         "categoria": "America do norte",
         "descricao": "Aéreo + Hotel 5 estrelas",
         "detalhes": "Apartamento duplo",

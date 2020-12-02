@@ -26,7 +26,7 @@ struct DetalhesViagemView: View {
                     ZStack(alignment: .top) {
                         Image(self.pacoteDeViagem.imagens[0])
                             .resizable()
-                            .frame(height: 200)
+                            .frame(height: 400)
                         
                         Button(action: {
                             self.presentationMode.wrappedValue.dismiss()
@@ -36,7 +36,7 @@ struct DetalhesViagemView: View {
                                 .renderingMode(Image.TemplateRenderingMode.original)
                                 .frame(width: 15, height: 25, alignment: .leading)
                                 .padding(.leading, 15)
-                                .padding(.top, 15)
+                                .padding(.top, 70)
                         }.frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
                     }
                 }
@@ -48,12 +48,18 @@ struct DetalhesViagemView: View {
                             Text(self.pacoteDeViagem.titulo.uppercased())
                                 .font(.custom("Avenir Black", size: 26))
                                 .foregroundColor(self.corDaFonte)
+                                .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .center)
+                            
+                            Text(self.pacoteDeViagem.informacoes)
+                                .font(.custom("Avenir", size: 16))
+                                .foregroundColor(self.corDaFonte)
                                 .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .leading)
                             
                             Text(self.pacoteDeViagem.descricao)
                                 .font(.custom("Avenir", size: 16))
                                 .foregroundColor(self.corDaFonte)
                                 .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .leading)
+                                .padding(.top, 10)
                             
                             Spacer().frame(height: 15)
                         }
@@ -67,27 +73,15 @@ struct DetalhesViagemView: View {
                         
                         HStack {
                             VStack {
-                                Text("Válido para o período de:")
-                                    .font(.custom("Avenir", size: 14))
-                                    .foregroundColor(self.corDaFonte)
-                                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .leading)
-                                
-                                Text(self.pacoteDeViagem.dataValidade)
-                                    .font(.custom("Avenir", size: 14))
-                                    .foregroundColor(self.corDaFonte)
-                                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .leading)
-                            }
-                            
-                            VStack {
                                 Text("R$ \(self.pacoteDeViagem.valor)")
                                     .font(.custom("Avenir Black", size: 25))
                                     .foregroundColor(.orange)
-                                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .trailing)
+                                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .leading)
                                 
                                 Text("sem taxas até em 12x")
                                     .font(.custom("Avenir", size: 14))
                                     .foregroundColor(self.corDaFonte)
-                                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .trailing)
+                                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .leading)
                             }
                         }
                         
@@ -97,7 +91,7 @@ struct DetalhesViagemView: View {
                             Text("O que está incluso")
                                 .font(.custom("Avenir", size: 20))
                                 .foregroundColor(self.corDaFonte)
-                                .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .leading)
+                                .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .center)
                         }
                         
                         HStack {
@@ -125,12 +119,19 @@ struct DetalhesViagemView: View {
                         Button(action: {
                             self.presentationMode.wrappedValue.dismiss()
                         }) {
-                            Text("Escolher opção")
+                            Text("Gostei, quero este!")
                                 .font(.custom("Avenir Black", size: 16))
                                 .foregroundColor(.white)
                                 
                         }.frame(width: View.size.width - 40, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .background(Color.init(red: 221.0/255.0, green: 58.0/255.0, blue: 126.0/255.0))
+                        
+                        HStack {
+                            Text("Válido para o período de: \(self.pacoteDeViagem.dataValidade)")
+                                .font(.custom("Avenir", size: 11))
+                                .foregroundColor(self.corDaFonte)
+                                .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: View.size.width, alignment: .leading)
+                        }.padding(.top, 10)
 
                     }
                     .padding(.leading, 20)
